@@ -1,4 +1,4 @@
-#Todo List
+<h1>Todo List</h1>
 
 A simple app made with REACT + VITE, with Bootstrap. 
 
