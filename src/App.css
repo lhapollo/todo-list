@@ -1,0 +1,152 @@
+.tdl {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.tdl--title {
+  font-size: 3rem;
+}
+
+.tdl--item-container{
+  width: 60%;
+  min-height: 20vh;
+  background-color: #D2D7E5;
+  border-radius: 20px;
+}
+
+.tdl, .tdl--item-container, .tdl-item--checkbox-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tdl-item {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  width: 85%;
+  height: 6rem;
+  background-color: white;
+  border-radius: 10px;
+  justify-content: space-between;
+  
+}
+
+.tdl-item--text {
+  font-size: 1.5rem;
+  margin-top: 1.3rem;
+  margin-bottom: 0.2rem;
+}
+
+.tdl-item--timestamp{
+  font-size: 1.0rem;
+  margin-top:0;
+}
+
+.tdl-item--checkbox{
+  width: 40px;
+  height: 40px;
+}
+
+.tdl-item--checkbox-container{
+  margin: 20px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.tdl-item--left {
+  display:flex;
+  flex-direction: row;
+}
+
+.tdl-item--right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 5px;
+}
+
+.tdl-item--btn {
+  width: 45px;
+  height: 45px;
+  margin: 15px;
+  border: none;
+  background-color: #E6E5E5;
+}
+
+button {
+  font-family: "Inter"
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #D2D7E5;
+  border: none;
+}
+
+h1, p {
+  font-family: "Inter"
+}
+
+.tdl--input-container{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.tdl--btn{
+  width: 180px;
+  height: 50px;
+  font-size: 20px;
+  font-family: "Inter";
+  border: none;
+  background-color: #5E6EF6;
+  border-radius: 10px;
+  color: white;
+}
+
+.tdl--btn:hover {
+  background-color: #8B97FF;
+}
+
+.dropdown-toggle {
+  width: 180px;
+  height: 50px;
+  font-size: 20px !important;
+  background-color: #BBCEFF !important;
+  color: black !important;
+  border: none !important;
+}
+
+.dropdown-menu {
+  width: 180px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.tdl--add-task {
+  width: 450px;
+  font-size: 20px;
+}
+
+.tdl-item--info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tdl-item--edit-text {
+  font-size: 1.6rem;
+  margin-top: 1.0rem;
+}
+
+.bold-text {
+  font-weight: bold !important;
+}
