@@ -122,10 +122,16 @@ export default function ToDoList() {
             Filter Tasks
           </Dropdown.Toggle>
           <Dropdown.Menu className="dropdown-menu">
-            <Dropdown.Item className= {showIncomplete? "bold-text":""} onClick={() => setShowIncomplete(true)}>
+            <Dropdown.Item
+              className={showIncomplete ? "bold-text" : ""}
+              onClick={() => setShowIncomplete(true)}
+            >
               Incomplete
             </Dropdown.Item>
-            <Dropdown.Item className= {showIncomplete? "":"bold-text"} onClick={() => setShowIncomplete(false) } >
+            <Dropdown.Item
+              className={showIncomplete ? "" : "bold-text"}
+              onClick={() => setShowIncomplete(false)}
+            >
               All Tasks
             </Dropdown.Item>
           </Dropdown.Menu>
